@@ -8,7 +8,7 @@ int main()
 	srand(time(0));
 	int randNum = (rand() % 100) + 1;// generates random number
 	int guessed;
-	cout << "Guess the number:";
+	cout << "Guess the number(Between 1 to 100): ";
 	do
 	{
 		cin >> guessed;
